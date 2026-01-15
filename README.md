@@ -25,15 +25,6 @@ By utilizing the **Key Influencers** AI visual, the dashboard automatically iden
 
 ---
 
-## 🎨 Design Philosophy: Neumorphism (Soft UI)
-To differentiate from the Glassmorphism used in Task 1, I designed a **Neumorphic (Soft UI)** interface in **Canva Pro**.
-* **Tactile Feedback:** Buttons and sliders use dual-shadow layering (Light Top-Left, Dark Bottom-Right) to look like a physical control panel.
-* **Color Strategy:** * **Background:** `#E0E5EC` (Neutral Soft Gray)
-    * **Primary Accent:** `#6D5DFC` (Executive Purple)
-    * **Logic:** The design follows the concept of **Affordance**, making the "Predictive" elements feel interactive and touchable.
-
----
-
 ## 📈 Executive Insights
 * **Maximum Impact:** Shifting budget from **Influencers** to **Affiliate Marketing** yields a **3.3x higher return** on sales.
 * **Efficiency Ranking:** Affiliate Marketing is the primary growth lever, followed by Billboards and Social Media.
