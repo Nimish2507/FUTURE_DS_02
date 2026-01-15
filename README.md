@@ -1,2 +1,54 @@
-# FUTURE_DS_02
-📊 Advertising Strategy & Predictive Simulator (Task 2)🎯 Project OverviewThis project transitions from descriptive reporting to Predictive and Prescriptive Analytics. Using a dataset of 300 advertising campaigns, I built an interactive "What-If" Simulation Dashboard that allows stakeholders to predict sales outcomes based on real-time budget reallocations.🧠 Data Science Concepts AppliedTo move from a beginner to a professional level, I implemented the following analytical frameworks:1. Linear Regression ModelingI analyzed the relationship between 6 advertising channels and total products sold. By calculating the Coefficients (Weights) for each channel, I identified the "Efficiency Factor" of every dollar spent.Formula Applied: $$Sales = (TV \times 2.0) + (Billboards \times 3.0) + (GoogleAds \times 1.5) + (Social \times 2.5) + (Influencers \times 1.2) + (Affiliates \times 4.0)$$2. Sensitivity (What-If) AnalysisUsing DAX Parameters, I built a simulation engine. This allows users to test the "sensitivity" of the total sales to changes in specific variables (e.g., "What happens if we cut Influencer spend and move it to Affiliate Marketing?").3. Diagnostic AI VisualsI utilized Power BI’s Key Influencers AI Visual to statistically prove which factors drive the "Product Sold" metric, providing a data-backed reason for every strategic recommendation.🎨 UI/UX Design: Neumorphism (Soft UI)Unlike standard business reports, this dashboard utilizes a Neumorphic Design style created in Canva Pro.Style: Soft shadows and highlights to create a 3D "tactile" feel.Color Palette: * Background: #E0E5EC (Neutral Gray)Accent: #6D5DFC (Action Purple)Affordance: Buttons and sliders are designed to look physical, encouraging user interaction with the predictive model.🚀 Key Insights for ManagementTop Performer: Affiliate Marketing has the highest ROI coefficient (4.0). Increasing budget here yields the highest sales lift.Underperformer: Influencer Marketing shows the lowest impact (1.2).Strategy Recommendation: Reallocating budget from Influencers to Affiliate Marketing can increase total sales by up to 25% without increasing the total spend.🛠️ Tools UsedPower BI: DAX Modeling, Parameterized Scenarios, AI Visuals.Canva Pro: Custom Neumorphic UI Design & Layout.Excel/CSV: Data Source.How to use this template:
+# 📊 Advertising ROI & Predictive Simulator (Task 2)
+
+## 🌟 Project Overview
+This project represents **Phase 2** of the Advertising Data Analysis. While Phase 1 focused on past performance, this dashboard is a **Decision Support Tool** designed for Predictive and Diagnostic Analytics. I built an interactive simulation engine that allows stakeholders to forecast sales outcomes by adjusting budget allocations across six different marketing channels.
+
+---
+
+## 🚀 The "Pro" Analytical Concepts Used
+As a transition into Data Science, this task incorporates advanced concepts that go beyond basic reporting:
+
+### 1. Linear Regression Logic
+Using the advertising dataset, I identified the **Coefficients** (the mathematical weight) of each channel. This tells us exactly how much a \$1 investment impacts the total products sold.
+* **Affiliate Marketing:** 4.0 (The most efficient driver)
+* **Billboards:** 3.0
+* **Social Media:** 2.5
+* **TV:** 2.0
+* **Google Ads:** 1.5
+* **Influencer Marketing:** 1.2 (The least efficient driver)
+
+### 2. Sensitivity (What-If) Analysis
+I implemented **DAX Parameters** to create "What-If" scenarios. This allows users to perform sensitivity analysis—testing how the "Target" (Product Sold) reacts when "Features" (Ad Spend) are modified in real-time.
+
+### 3. Diagnostic AI Visuals
+By utilizing the **Key Influencers** AI visual, the dashboard automatically identifies and ranks the factors that cause sales to increase, providing statistical evidence for budget shifts.
+
+---
+
+## 🎨 Design Philosophy: Neumorphism (Soft UI)
+To differentiate from the Glassmorphism used in Task 1, I designed a **Neumorphic (Soft UI)** interface in **Canva Pro**.
+* **Tactile Feedback:** Buttons and sliders use dual-shadow layering (Light Top-Left, Dark Bottom-Right) to look like a physical control panel.
+* **Color Strategy:** * **Background:** `#E0E5EC` (Neutral Soft Gray)
+    * **Primary Accent:** `#6D5DFC` (Executive Purple)
+    * **Logic:** The design follows the concept of **Affordance**, making the "Predictive" elements feel interactive and touchable.
+
+---
+
+## 📈 Executive Insights
+* **Maximum Impact:** Shifting budget from **Influencers** to **Affiliate Marketing** yields a **3.3x higher return** on sales.
+* **Efficiency Ranking:** Affiliate Marketing is the primary growth lever, followed by Billboards and Social Media.
+* **Strategic Recommendation:** To optimize total sales without increasing the total budget, the company should prioritize Affiliate and Billboard spending while scaling back on Influencer campaigns.
+
+---
+
+## 🛠️ Tech Stack
+* **Power BI:** Advanced DAX, What-If Parameters, AI Analytics.
+* **Canva Pro:** UI Layout & Neumorphic Component Design.
+* **Statistics:** Linear Regression & Correlation Analysis.
+
+---
+
+### 📂 How to View
+1. Download the `.pbix` file from this repository.
+2. Open in Power BI Desktop.
+3. Use the sliders on the left to simulate your own marketing strategy!
